@@ -5,17 +5,17 @@
 #include <cmath>
 using namespace std;
 
-#define S 1.0 //size of diffraction grating slit
+#define S 50.0 //size of diffraction grating slit
 #define O 240.0 //size of image on screen
 #define LAMBDA 1.0 //wave length
 #define AMPLITUDE 10.0 //wave amplitude
-#define D 100.0 //distance between slit and screen
+#define D 120.0 //distance between slit and screen
 #define B 5.0 //distance between slits
 
-#define N 10000 // Number of data points
+#define N 1000 // Number of data points
 #define INTEGRATION_N 100
-#define No_slits 2 // Number of slits  currently only 1 & 2 work
-#define File_Name "Data2.txt" //name of the output file
+#define No_slits 1 // Number of slits  currently only 1 & 2 work
+#define File_Name "Data1.txt" //name of the output file
 
 
 double Real(double x, double y)
